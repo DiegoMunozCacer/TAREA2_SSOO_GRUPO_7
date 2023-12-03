@@ -17,8 +17,14 @@ sudo apt install build-essential
 https://docs.google.com/spreadsheets/d/1qvAHqO0jSyOmVtEsgiebxfBSooCU3NVUU1UzllqFC1Q/edit?usp=sharing
 
 ## EJECUCION DEL CÓDIGO
+
+### Compilar y ejecutar el programa
 make
+
+### Procesamiento Secuencial
 ./procesamiento_paralelo_secuencial paisaje.jpg secuencial.jpg
+
+### Procesamiento Paralelo con Hilos
 ./procesamiento_paralelo_hilos paisaje.jpg hilos1.jpg 1
 ./procesamiento_paralelo_hilos paisaje.jpg hilos2.jpg 2
 ./procesamiento_paralelo_hilos paisaje.jpg hilos3.jpg 3
@@ -33,6 +39,9 @@ make
 ./procesamiento_paralelo_hilos paisaje.jpg hilos12.jpg 12
 ./procesamiento_paralelo_hilos paisaje.jpg hilos13.jpg 13
 ./procesamiento_paralelo_hilos paisaje.jpg hilos14.jpg 14
+
+### Procesamiento Paralelo con OpenMP
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp1.jpg 1
 ./procesamiento_paralelo_openmp paisaje.jpg openmp2.jpg 2
 ./procesamiento_paralelo_openmp paisaje.jpg openmp3.jpg 3
