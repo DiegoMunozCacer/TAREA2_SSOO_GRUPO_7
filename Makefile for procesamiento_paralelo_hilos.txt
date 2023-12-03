@@ -1,0 +1,11 @@
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall -pthread `pkg-config --cflags opencv4`
+LDFLAGS = `pkg-config --libs opencv4`
+
+all: procesamiento_paralelo_hilos
+
+procesamiento_paralelo_hilos: image_processing.cpp
+	$(CXX) $(CXXFLAGS) -DPARALLEL_THREAD -o $@ $< $(LDFLAGS)
+
+clean:
+	rm -f procesamiento_paralelo_hilos
