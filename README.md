@@ -43,16 +43,29 @@ make
 ### Procesamiento Paralelo con OpenMP
 
 ./procesamiento_paralelo_openmp paisaje.jpg openmp1.jpg 1
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp2.jpg 2
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp3.jpg 3
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp4.jpg 4
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp5.jpg 5
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp6.jpg 6
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp7.jpg 7
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp8.jpg 8
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp9.jpg 9
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp10.jpg 10
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp11.jpg 11
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp12.jpg 12
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp13.jpg 13
+
 ./procesamiento_paralelo_openmp paisaje.jpg openmp14.jpg 14
