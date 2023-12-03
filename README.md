@@ -26,18 +26,31 @@ make
 
 ### Procesamiento Paralelo con Hilos
 ./procesamiento_paralelo_hilos paisaje.jpg hilos1.jpg 1
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos2.jpg 2
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos3.jpg 3
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos4.jpg 4
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos5.jpg 5
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos6.jpg 6
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos7.jpg 7
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos8.jpg 8
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos9.jpg 9
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos10.jpg 10
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos11.jpg 11
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos12.jpg 12
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos13.jpg 13
+
 ./procesamiento_paralelo_hilos paisaje.jpg hilos14.jpg 14
 
 ### Procesamiento Paralelo con OpenMP
